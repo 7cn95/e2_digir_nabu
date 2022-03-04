@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "myfont";
+    src: url("./fonts/newfont.ttf");
+}
+
+
+/*  */
+
+@font-face {
+    font-family: "ur3";
+    src: url("./fonts/UR3.ttf");
+}
+
+@font-face {
+    font-family: "assyrian";
+    src: url("./fonts/Assurbanipal.ttf");
+}
+
+@font-face {
+    font-family: "babylon";
+    src: url("./fonts/Santakku.ttf");
+}
+
+@font-face {
+    font-family: "noto";
+    src: url("./fonts/NotoSansCuneiform.ttf");
+}
+
+
+/*todo */
+
+* {
+    margin: 0;
+    font-family: 'myfont';
+}
+
+body {
+    min-height: 925px;
+    overflow: hidden;
+}
+
+header {
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 700px;
+}
+
+.menu {
+    font-size: 2.6rem;
+    display: none;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3.3rem;
+    font-family: 'ur3';
+}
+
+.langList {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    list-style: none;
+}
+
+.langBtn {
+    margin-right: 18px;
+    padding: 0 15px;
+    border-bottom: 2px solid goldenrod;
+    border-radius: 15px;
+}
+
+:hover.langBtn {
+    background: goldenrod;
+    transition: ease-in 500ms;
+}
+
+.langBtn1 {
+    font-size: 1.4rem;
+    font-family: 'ur3';
+}
+
+.langBtn2 {
+    font-size: 2rem;
+    font-family: 'assyrian';
+}
+
+.langBtn3 {
+    font-size: 1rem;
+}
+
+.langBtn4 {
+    font-family: 'babylon';
+    font-size: 2.5rem;
+}
+
+.output-part {
+    height: 222px;
+    margin-bottom: 20px;
+}
+
+#output {
+    font-family: 'ur3';
+    text-align: center;
+    font-size: 5rem;
+}
+
+#outputAra {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.input-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.signL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.sign {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    list-style: none;
+    background-color: goldenrod;
+}
+
+#input {
+    margin: 9px;
+    padding: 7px;
+    border: 0;
+    border-bottom: 2px solid goldenrod;
+    height: 30px;
+    width: 340px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.inputSubmit {
+    background-color: goldenrod;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+:hover.inputSubmit {
+    background-color: rgb(173, 131, 25);
+}
+
+footer {
+    height: 10%;
+}
